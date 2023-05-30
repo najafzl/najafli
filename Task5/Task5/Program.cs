@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            int[] reqemler = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int[] reqemler = { 7, 6, 4, 86 ,45, 21, 90, 200, 321, 19, 35,76542 };
 
             int[] cutreqemler = cutededlerial(reqemler);
 
