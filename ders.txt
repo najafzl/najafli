@@ -1,0 +1,27 @@
+namespace elebele
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student student= new Student();
+            while (true)
+            {
+                Console.Write("Adinizi ve Soyadinizi daxil edin: ");
+                student.Fullname = Console.ReadLine();
+                while (student.Fullname)
+            }
+        }
+    }
+}
+
+namespace elebele
+{
+    public class Student
+    {
+        public string Fullname;
+        public int GroupNo;
+        public int Age;
+
+    }
+}S
